@@ -1,0 +1,32 @@
+<div class="container">
+    <!-- Main hero unit for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="assets/books.png" class="img-rounded" style="width: 140px;">
+            </div>
+            <div class="col-md-8">
+                <h1>BookApp</h1>
+
+                <p>This is the BFH BookApp example website.</p>
+            </div>
+        </div>
+    </div>
+    <!--<div ng-view></div>-->
+</div>
+
+<div chell-portlet-container>
+    <div class="col-md-12 column" id="col1">
+
+        <!-- Book Portlet -->
+        <chell-portlet title="Books">
+            <ng-include src="'templates/books.tpl.html'"></ng-include>
+        </chell-portlet>
+
+        <!-- Author Portlet -->
+        <chell-portlet title="Authors" minimized="true">
+            <ng-include src="'templates/authors.tpl.html'"></ng-include>
+        </chell-portlet>
+
+    </div>
+</div>

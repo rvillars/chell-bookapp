@@ -1,0 +1,11 @@
+{
+    "name": "chell-bookapp",
+    "version": "0.0.1",
+    "main": [
+       "chell-bookapp.js"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "angular": "~1.2"
+    }
+}
